@@ -1,4 +1,4 @@
-EC2 Ubuntu Linux Hardening — Top 5 Controls
+EC2 Ubuntu Linux Hardening
 
 A shell script that applies the 5 most important security hardening controls to a freshly provisioned AWS EC2 Ubuntu instance.
 
