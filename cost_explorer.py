@@ -35,7 +35,7 @@ print(f"Total AWS cost: ${total:.2f}")
 
 if total > THRESHOLD:
     response = requests.post(
-        "https://hooks.slack.com/services/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",
+        "Slack url",
         json={"text": f"AWS cost exceeded $2! Total: ${total:.2f}"},
         timeout=15
     )
